@@ -44,7 +44,7 @@ def reduce_to_total(source_array, starting_point=0)
   starting_point
 end
 
-def reduce_to_all_true(source_array)
+def reduce_to_all_true(source_array=[true])
   new_arr = []
   i = 0
   while i < source_array.length do
@@ -54,7 +54,7 @@ def reduce_to_all_true(source_array)
   new_arr.length == source_array.length ? true : false
 end
 
-def reduce_to_any_true
+def reduce_to_any_true(source_array)
   result = false
   i = 0
   while i < source_array.length do
