@@ -29,7 +29,6 @@ def map_to_square(source_array)
   i = 0
   source_array.each do |number|
     source_array[number] = source_array[number] ** 2
-    number = number ** 2
   end
   source_array
 end
