@@ -27,13 +27,9 @@ end
 
 def map_to_square(source_array)
   i = 0
-  if source_array[0] == nil
-    source_array = source_array ** 2
-  else
-    while i < source_array.length do
-      source_array = source_array[i] ** 2
-      i += 1
-    end
+  while i < source_array.length do
+    source_array = source_array[i] ** 2
+    i += 1
   end
   source_array
 end
