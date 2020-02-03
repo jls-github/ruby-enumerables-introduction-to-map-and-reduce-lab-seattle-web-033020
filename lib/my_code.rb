@@ -27,8 +27,10 @@ end
 
 def map_to_square(source_array)
   i = 0
-  source_array.each do |number|
-    source_array[number] = source_array[number] ** 2
+  if source_array =
+  while i < source_array.length do
+    source_array = source_array[i] ** 2
+    i += 1
   end
   source_array
 end
