@@ -51,7 +51,7 @@ end
 def reduce_to_any_true
   i = 0
   while i < source_array.length do
-    source_array[i] ? return true : nil
+    source_array[i] ? result = true : nil
   end
   return false
 end
